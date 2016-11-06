@@ -1,0 +1,4 @@
+Circular; Aluminum; 3
+Circ tips; Wood; 10
+DPN; Aluminum; 3
+DPN; Aluminum; 3
