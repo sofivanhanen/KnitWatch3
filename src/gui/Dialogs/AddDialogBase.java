@@ -1,17 +1,11 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package gui.Dialogs;
 
 import actionListeners.*;
 import gui.Build;
 import java.awt.*;
-import static java.awt.GridBagConstraints.NORTH;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
-import javax.swing.table.TableModel;
 import knitwatch3.Run;
 
 public class AddDialogBase extends JDialog {

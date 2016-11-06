@@ -1,7 +1,3 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package gui.Dialogs;
 
 import actionListeners.FinalRemoveYarn;
@@ -12,10 +8,6 @@ import javax.swing.table.*;
 import knitwatch3.Run;
 import tablethings.*;
 
-/**
- *
- * @author Default User
- */
 public class RemoveYarnDialog extends RemoveDialogBase {
     
     private JTable table;

@@ -1,21 +1,9 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package tablethings;
 
 import java.awt.Color;
 import java.util.Comparator;
 
-/**
- *
- * @author Default User
- */
 public class ColorComparator implements Comparator {
-
-    public ColorComparator() {
-
-    }
 
     @Override
     public int compare(Object o1, Object o2) {

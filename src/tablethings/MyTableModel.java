@@ -1,16 +1,8 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package tablethings;
 
 import javax.swing.table.*;
 import knitwatch3.Container;
 
-/**
- *
- * @author Default User
- */
 public class MyTableModel extends AbstractTableModel implements TableModel{
     
     protected String[] columnNames;

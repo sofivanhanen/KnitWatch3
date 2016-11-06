@@ -1,7 +1,3 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package tablethings;
 
 import java.awt.*;
@@ -10,7 +6,6 @@ import javax.swing.table.TableCellRenderer;
 
 public class ColorRenderer extends JLabel implements TableCellRenderer {
 
-    // Custom renderer written by me to render colors in yarn tab
     public ColorRenderer() {
         setOpaque(true);
     }

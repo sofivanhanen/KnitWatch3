@@ -1,13 +1,8 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package knitwatch3;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.util.Scanner;
 
 public class Writer {
     

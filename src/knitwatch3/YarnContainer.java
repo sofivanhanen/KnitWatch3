@@ -1,12 +1,6 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package knitwatch3;
 
 import java.awt.Color;
-import java.util.ArrayList;
-import knitWatch3.*;
 
 public class YarnContainer extends Container {
      

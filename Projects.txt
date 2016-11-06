@@ -3,3 +3,4 @@ Example project; My best yarn; 5; Ravelry; 5
 Example project; My best yarn; 5; Ravelry; 5
 New project; Novita nalle; 9; My files; 9
 My hat; Some yarn; 7; Not decided; 7
+Some project; Black yarn; 6; Will improvise; 9

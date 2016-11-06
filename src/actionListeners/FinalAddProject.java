@@ -1,17 +1,9 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package actionListeners;
 
 import gui.Dialogs.AddProjectDialog;
 import java.awt.event.*;
 import knitwatch3.Run;
 
-/**
- *
- * @author Default User
- */
 public class FinalAddProject implements ActionListener {
     
     private Run run;

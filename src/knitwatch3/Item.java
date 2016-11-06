@@ -1,13 +1,5 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package knitwatch3;
 
-/**
- *
- * @author Default User
- */
 public class Item {
     
     public int numberOfAttributes;

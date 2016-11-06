@@ -1,7 +1,3 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package gui;
 
 import java.awt.Color;

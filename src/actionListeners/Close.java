@@ -1,7 +1,4 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
+
 package actionListeners;
 
 import java.awt.event.*;

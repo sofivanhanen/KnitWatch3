@@ -1,18 +1,7 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package keyListener;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.event.*;
 
-/**
- *
- * @author Default User
- */
 public class MyKeyListener implements KeyListener {
     
     private ActionListener al;
@@ -23,7 +12,7 @@ public class MyKeyListener implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-        //keyTyped always gives VK_UNDEFINED for e.getKetCode(). How stupid is that??
+        //keyTyped always gives VK_UNDEFINED for e.getKeyCode(). How stupid is that??
     }
 
     @Override

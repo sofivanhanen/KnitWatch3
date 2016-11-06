@@ -1,7 +1,3 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package knitwatch3;
 
 import java.io.File;
@@ -35,7 +31,7 @@ public class Reader {
             }
             scanner.close();
         } catch (Exception e) {
-            System.out.println("Problem in Reader.java method buildFileContainer (file not found)");
+            System.out.println("Problem in Reader.java method buildNeedleContainer (file not found)");
             System.out.println(e.getStackTrace());
         }
         return needleC;
@@ -50,7 +46,7 @@ public class Reader {
                 projectC.addNew(scanner.nextLine());
             }
         } catch (Exception e) {
-            System.out.println("Problem in Reader.java method BuildProjectContainer (file not found)");
+            System.out.println("Problem in Reader.java method buildProjectContainer (file not found)");
         }
         return projectC;
     }

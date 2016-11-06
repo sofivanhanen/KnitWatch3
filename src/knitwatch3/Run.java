@@ -1,23 +1,15 @@
-/*
- * Let's do some coding!
- * If you get stuck, remember to chill and take a break!
- */
 package knitwatch3;
 
 import gui.Build;
 
-/**
- *
- * @author Default User
- */
 public class Run {
 
     private YarnContainer yarnC;
     private NeedleContainer needleC;
     private ProjectContainer projectC;
-    private final String yarnFile = "C:\\Users\\Default User.X220\\Documents\\NetBeansProjects\\KnitWatch3\\src\\txtfiles\\Yarns.txt";
-    private final String needleFile = "C:\\Users\\Default User.X220\\Documents\\NetBeansProjects\\KnitWatch3\\src\\txtfiles\\Needles.txt";
-    private final String projectFile = "C:\\Users\\Default User.X220\\Documents\\NetBeansProjects\\KnitWatch3\\src\\txtfiles\\Projects.txt";
+    private final String yarnFile = "Yarns.txt";
+    private final String needleFile = "Needles.txt";
+    private final String projectFile = "Projects.txt";
     private Build build;
 
     public Run() {

@@ -1,0 +1,8 @@
+Example yarn; 5; Wool; 50; 255 100 0
+Example yarn; 5; Wool; 50; 0 0 255
+Example yarn; 4.0; Wool; 50; 255 255 255
+Example yarn; 4.5; Wool; 50; 255 255 255
+Example yarn; 3.5; Wool; 50; 255 255 0
+Some yarn; 5; Wool; 50; 0 255 255
+Cotton yarn; 2; Cotton; 50; 100 100 200
+Fancy Yarn; 6.5; Alpaca; 100; 50 100 200
