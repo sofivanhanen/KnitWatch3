@@ -7,9 +7,9 @@ public class Run {
     private YarnContainer yarnC;
     private NeedleContainer needleC;
     private ProjectContainer projectC;
-    private final String yarnFile = "Yarns.txt";
-    private final String needleFile = "Needles.txt";
-    private final String projectFile = "Projects.txt";
+    private final String yarnFile = "files/Yarns.txt";
+    private final String needleFile = "files/Needles.txt";
+    private final String projectFile = "files/Projects.txt";
     private Build build;
 
     public Run() {

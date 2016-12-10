@@ -1,0 +1,4 @@
+Example yarn; 5; Wool; 50; 255 100 0
+Example yarn; 5; Wool; 50; 0 0 255
+Example yarn; 4.0; Wool; 50; 255 255 255
+Example yarn; 5.7; Wool; 50; 255 255 255

@@ -1,8 +1,0 @@
-Circular; Aluminum; 3
-Circ tips; Wood; 10
-DPN; Aluminum; 3
-DPN; Aluminum; 3
-Long; Bamboo; 5
-Circular; Bamboo; 5.5
-DPN; Aluminum; 3.5
-DPN; Aluminum; 2.5

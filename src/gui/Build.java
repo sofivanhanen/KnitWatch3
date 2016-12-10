@@ -212,14 +212,16 @@ public class Build {
         button.setPreferredSize(new Dimension(300, 50));
         if (label.equals("Add yarn")) {
             button.addActionListener(new AddYarn(run));
-        }  else if (label.equals("Add a project")) {
-            button.addActionListener(new AddProject(run));
         } else if (label.equals("Add needles")) {
             button.addActionListener(new AddNeedle(run));
+        }  else if (label.equals("Add a project")) {
+            button.addActionListener(new AddProject(run));
         } else if (label.equals("Remove yarn")) {
             button.addActionListener(new RemoveYarn(run));
         } else if (label.equals("Remove needles")) {
             button.addActionListener(new RemoveNeedle(run));
+        } else if (label.equals("Remove a project")) {
+            button.addActionListener(new RemoveProject(run));
         }
         button.setFont(new Font("Helvetica", Font.PLAIN, 15));
         button.setBackground(new Color(163, 18, 49));
