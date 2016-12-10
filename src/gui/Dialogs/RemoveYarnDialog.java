@@ -37,8 +37,8 @@ public class RemoveYarnDialog extends RemoveDialogBase {
         table = new JTable(new YarnTableModel(run.getYarnContainer()));
         table.getTableHeader().setReorderingAllowed(false);
         table.getTableHeader().setResizingAllowed(false);
+        table.getColumnModel().getColumn(2).setPreferredWidth(10);
         table.getColumnModel().getColumn(3).setPreferredWidth(10);
-        table.getColumnModel().getColumn(4).setPreferredWidth(10);
         table.setDefaultRenderer(Color.class, new ColorRenderer());
         TableRowSorter<TableModel> sorter = new TableRowSorter(table.getModel());
         sorter.setComparator(4, new ColorComparator());

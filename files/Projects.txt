@@ -1,4 +1,3 @@
-Example project; My best yarn; 5; Ravelry; 5
-Example project; My best yarn; 5; Ravelry; 5
-New project; Novita nalle; 9; My files; 9
-Some project; Black yarn; 6; Will improvise; 9
+Hat for me; My best yarn; 3; hatpatterns.org; 7
+Mittens for John; Alpaca; 6; Mitt patterns (book); 4
+Scarf; White yarn; 9; My files; 5

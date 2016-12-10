@@ -79,8 +79,8 @@ public class Build {
 
         y.getTableHeader().setReorderingAllowed(false);
         y.getTableHeader().setResizingAllowed(false);
+        y.getColumnModel().getColumn(2).setPreferredWidth(10);
         y.getColumnModel().getColumn(3).setPreferredWidth(10);
-        y.getColumnModel().getColumn(4).setPreferredWidth(10);
         y.setDefaultRenderer(Color.class, new ColorRenderer());
 
         JLabel l = new JLabel("Yarns");
