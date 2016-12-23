@@ -6,6 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
+import keyListener.EscKeyListener;
 import knitwatch3.Run;
 
 public class AddDialogBase extends JDialog {
@@ -14,6 +15,8 @@ public class AddDialogBase extends JDialog {
     protected Run run;
     
     public AddDialogBase(Run run) {
+        this.addKeyListener(new EscKeyListener(this));
+        this.setFocusable(true);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.setPreferredSize(new Dimension(450,200));
         this.setResizable(false);
@@ -49,6 +52,7 @@ public class AddDialogBase extends JDialog {
 
         textField = new JTextField();
         textField.addActionListener(getAddAL());
+        textField.addKeyListener(new EscKeyListener(this));
         textField.setText(getTextFieldText());
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;

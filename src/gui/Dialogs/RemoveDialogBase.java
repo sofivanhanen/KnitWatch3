@@ -6,7 +6,8 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
-import keyListener.MyKeyListener;
+import keyListener.EnterKeyListener;
+import keyListener.EscKeyListener;
 import knitwatch3.Run;
 
 public class RemoveDialogBase extends JDialog{
@@ -15,6 +16,8 @@ public class RemoveDialogBase extends JDialog{
     protected Run run;
     
     public RemoveDialogBase(Run run) {
+        this.addKeyListener(new EscKeyListener(this));
+        this.setFocusable(true);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.setPreferredSize(new Dimension(600,400));
         this.setResizable(false);
@@ -51,7 +54,8 @@ public class RemoveDialogBase extends JDialog{
         table = getJTable();
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setPreferredSize(new Dimension(500,270));
-        table.addKeyListener(new MyKeyListener(getRemoveAL()));
+        table.addKeyListener(new EnterKeyListener(getRemoveAL()));
+        table.addKeyListener(new EscKeyListener(this));
         GridBagConstraints c1 = new GridBagConstraints();
         scrollPane.getViewport().setBackground(new Color(245,245,245));
         c1.gridx = 0;
